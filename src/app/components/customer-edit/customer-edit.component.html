@@ -1,0 +1,46 @@
+<!-- <div class="bg-dark p-5">
+  <h4 class="text-center mb-5">Edit Customer</h4>
+  <form
+    class="d-flex flex-column gap-3"
+    [formGroup]="customerForm"
+    (ngSubmit)="editCustomer()"
+  >
+    <div>
+      <mat-form-field appearance="outline" color="accent" class="bg-pre">
+        <mat-label>Name</mat-label>
+        <input matInput type="text" formControlName="name" />
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field appearance="outline" color="accent" class="bg-pre">
+        <mat-label>Phone</mat-label>
+        <input matInput type="text" formControlName="phone" />
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field appearance="outline" color="accent" class="bg-pre">
+        <mat-label>Subscriber</mat-label>
+        <mat-select formControlName="sub">
+          <mat-option [value]="true"> Yes </mat-option>
+          <mat-option [value]="false"> No </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <button
+      mat-raised-button
+      class="bg-pre p-4 w-100 border"
+      *ngIf="!submitting"
+    >
+      Save
+    </button>
+    <button
+      mat-raised-button
+      class="bg-pre p-4 w-100 border"
+      *ngIf="submitting"
+    >
+      <div class="spinner-border spinner-border-sm" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </button>
+  </form>
+</div> -->
